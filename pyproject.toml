@@ -2,7 +2,7 @@
 name = "tictactoe_zw3055"
 version = "0.1.0"
 description = "Tic Tac Toe"
-authors = ["zack wang" "zw3055@columbia.edu"]
+authors = ["zack wang"]
 license = "MIT"
 readme = "README.md"
 
