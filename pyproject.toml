@@ -2,20 +2,24 @@
 name = "tictactoe_zw3055"
 version = "0.1.0"
 description = "Tic Tac Toe"
-authors = ["zack wang"]
+authors = ["zack wang" "zw3055@columbia.edu"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.1.1"
+numpy = "^2.1.1"
+scipy = "^1.14.1"
+seaborn = "^0.13.2"
+pandas = "^2.2.2"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.group.dev.dependencies]
 sphinx = "^8.1.3"
-sphinx-autodoc-typehints = "^2.5.0"
-sphinx-rtd-theme = "^3.0.1"
+sphinx = "^2.5.0"
+rtd-theme = "^3.0.1"
 myst-nb = "^1.1.2"
 sphinx-autoapi = "^3.3.3"
 pytest = "^8.3.3"
